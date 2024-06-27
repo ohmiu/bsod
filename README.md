@@ -1,8 +1,10 @@
-# bsodrop
+A simple python repository for calling bsod inside your code.
 
 ## Usage:
 
-A simple python repository for calling bsod inside your code.
+Installing:
+
+`pip install -U bsodrop`
 
 ```python
 import bsodrop as bsod
