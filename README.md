@@ -14,4 +14,6 @@ bsod.start()  # Start BSOD
 
 Build `bst.dll`:
 
-`g++ -shared -o "bst.dll" "-Wl,--out-implib,libbst.a" "pbsod.cpp" "-lntdll"`
+```shell
+g++ -shared -o "bst.dll" "-Wl,--out-implib,libbst.a" "pbsod.cpp" "-lntdll"
+```
